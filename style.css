@@ -199,12 +199,12 @@
 
 
 .ex-13-button:hover .ex-13-top-white{ 
-    animation: top-white2 2s infinite linear;
+    animation: top-white2 2s  linear;
   
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: bottom-white2 2s infinite linear;
+    animation: bottom-white2 2s  linear;
 }
 
 @keyframes top-white2 {
@@ -235,8 +235,32 @@
     }
 }
 
-@keyframes identifier {
+@keyframes bottom-white2 {
     
+    25% {
+        bottom:-10px ;
+        right:calc(100% - 30px) ;
+    }
+
+    50% {
+        bottom: 100% ;
+        right: calc(100% - 60px);
+    }
+
+    70% {
+        bottom: 100%;
+        right: 0;
+    }
+
+    90% {
+        right: -15px;
+        bottom: -10%;
+    }
+
+    100% {
+        right: 20%;
+        bottom: -10px;
+    }
 }
 
 
